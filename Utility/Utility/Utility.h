@@ -21,6 +21,11 @@ FOUNDATION_EXPORT const unsigned char UtilityVersionString[];
 #import "VPCommonHeader.h"
 #import "VPCommon-Extension.h"
 
+
+// Encrypt
+#import "NSData+AES.h"
+#import "GTMBase64.h"
+
 // Impl
 #import "ValidateImpl.h"
 
