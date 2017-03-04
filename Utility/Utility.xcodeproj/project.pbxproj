@@ -33,6 +33,7 @@
 		E8EFFCE91E681F5600459A23 /* CryptorToolsRSA.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EFFCE71E681F5600459A23 /* CryptorToolsRSA.h */; };
 		E8EFFCEA1E681F5600459A23 /* CryptorToolsRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EFFCE81E681F5600459A23 /* CryptorToolsRSA.m */; };
 		E8EFFCEC1E68218300459A23 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8EFFCEB1E68218300459A23 /* Security.framework */; };
+		E8EFFCF01E68529000459A23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8EFFCEF1E68529000459A23 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		E8EFFCE71E681F5600459A23 /* CryptorToolsRSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptorToolsRSA.h; sourceTree = "<group>"; };
 		E8EFFCE81E681F5600459A23 /* CryptorToolsRSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CryptorToolsRSA.m; sourceTree = "<group>"; };
 		E8EFFCEB1E68218300459A23 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E8EFFCEF1E68529000459A23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8EFFCF01E68529000459A23 /* Foundation.framework in Frameworks */,
 				E8EFFCEC1E68218300459A23 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,6 +107,7 @@
 				E8EFFC851E67E12C00459A23 /* Utility.h */,
 				E8EFFC8D1E67E1AC00459A23 /* Valid */,
 				E8EFFCB41E67F8E700459A23 /* Encrypt */,
+				E8EFFCEE1E6825AB00459A23 /* FileManager */,
 				E8EFFC871E67E12C00459A23 /* Info.plist */,
 			);
 			path = Utility;
@@ -185,9 +189,17 @@
 		E8EFFCED1E68219700459A23 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E8EFFCEF1E68529000459A23 /* Foundation.framework */,
 				E8EFFCEB1E68218300459A23 /* Security.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8EFFCEE1E6825AB00459A23 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FileManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
