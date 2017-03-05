@@ -8,6 +8,8 @@
 
 #import "NSString+DES.h"
 #import "GTMBase64.h"
+#import <CommonCrypto/CommonCryptor.h>
+
 @implementation NSString (DES)
 
 #pragma mark - 加密

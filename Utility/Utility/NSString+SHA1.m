@@ -12,6 +12,7 @@
 //所谓无冲突，就是当你知道x，无法求出一个y， 使x与y的HASH值相同。
 
 #import "NSString+SHA1.h"
+#import <CommonCrypto/CommonDigest.h>
 
 @implementation NSString (SHA1)
 

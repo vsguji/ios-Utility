@@ -14,18 +14,10 @@
 		E8EFFCB31E67F6D500459A23 /* VPIdentityCard.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EFFCB11E67F6D500459A23 /* VPIdentityCard.m */; };
 		E8EFFCBB1E67FAC800459A23 /* NSData+AES.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EFFCB91E67FAC800459A23 /* NSData+AES.h */; };
 		E8EFFCBC1E67FAC800459A23 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EFFCBA1E67FAC800459A23 /* NSData+AES.m */; };
-		E8EFFCC11E67FDEC00459A23 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EFFCBE1E67FDEC00459A23 /* GTMBase64.h */; };
-		E8EFFCC21E67FDEC00459A23 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EFFCBF1E67FDEC00459A23 /* GTMBase64.m */; };
-		E8EFFCC31E67FDEC00459A23 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EFFCC01E67FDEC00459A23 /* GTMDefines.h */; };
 		E8EFFCC61E67FFDE00459A23 /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EFFCC41E67FFDE00459A23 /* NSString+MD5.h */; };
 		E8EFFCC71E67FFDE00459A23 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EFFCC51E67FFDE00459A23 /* NSString+MD5.m */; };
 		E8EFFCCA1E6807C800459A23 /* NSString+URL.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EFFCC81E6807C800459A23 /* NSString+URL.h */; };
 		E8EFFCCB1E6807C800459A23 /* NSString+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EFFCC91E6807C800459A23 /* NSString+URL.m */; };
-		E8EFFCD11E68098000459A23 /* SAMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EFFCCD1E68098000459A23 /* SAMKeychain.h */; };
-		E8EFFCD21E68098000459A23 /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EFFCCE1E68098000459A23 /* SAMKeychain.m */; };
-		E8EFFCD31E68098000459A23 /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EFFCCF1E68098000459A23 /* SAMKeychainQuery.h */; };
-		E8EFFCD41E68098000459A23 /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EFFCD01E68098000459A23 /* SAMKeychainQuery.m */; };
-		E8EFFCD61E68108900459A23 /* SAMKeychain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E8EFFCD51E68108900459A23 /* SAMKeychain.bundle */; };
 		E8EFFCD91E6811ED00459A23 /* NSString+DES.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EFFCD71E6811ED00459A23 /* NSString+DES.h */; };
 		E8EFFCDA1E6811ED00459A23 /* NSString+DES.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EFFCD81E6811ED00459A23 /* NSString+DES.m */; };
 		E8EFFCE51E681C0200459A23 /* NSString+SHA1.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EFFCE31E681C0200459A23 /* NSString+SHA1.h */; };
@@ -34,6 +26,20 @@
 		E8EFFCEA1E681F5600459A23 /* CryptorToolsRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EFFCE81E681F5600459A23 /* CryptorToolsRSA.m */; };
 		E8EFFCEC1E68218300459A23 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8EFFCEB1E68218300459A23 /* Security.framework */; };
 		E8EFFCF01E68529000459A23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8EFFCEF1E68529000459A23 /* Foundation.framework */; };
+		E8EFFD151E6A96BF00459A23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8EFFD141E6A96BF00459A23 /* UIKit.framework */; };
+		E8EFFD201E6AD3F500459A23 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EFFD171E6AD3F500459A23 /* GTMBase64.h */; };
+		E8EFFD211E6AD3F500459A23 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EFFD181E6AD3F500459A23 /* GTMBase64.m */; };
+		E8EFFD221E6AD3F500459A23 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EFFD191E6AD3F500459A23 /* GTMDefines.h */; };
+		E8EFFD231E6AD3F500459A23 /* SAMKeychain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E8EFFD1B1E6AD3F500459A23 /* SAMKeychain.bundle */; };
+		E8EFFD241E6AD3F500459A23 /* SAMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EFFD1C1E6AD3F500459A23 /* SAMKeychain.h */; };
+		E8EFFD251E6AD3F500459A23 /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EFFD1D1E6AD3F500459A23 /* SAMKeychain.m */; };
+		E8EFFD261E6AD3F500459A23 /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EFFD1E1E6AD3F500459A23 /* SAMKeychainQuery.h */; };
+		E8EFFD271E6AD3F500459A23 /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EFFD1F1E6AD3F500459A23 /* SAMKeychainQuery.m */; };
+		E8EFFD2A1E6C3BE200459A23 /* VPFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EFFD281E6C3BE100459A23 /* VPFileManager.h */; };
+		E8EFFD2B1E6C3BE200459A23 /* VPFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EFFD291E6C3BE100459A23 /* VPFileManager.m */; };
+		E8EFFD2D1E6C3DA700459A23 /* VPConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EFFD2C1E6C3DA700459A23 /* VPConstants.h */; };
+		E8EFFD301E6C46A000459A23 /* VPFileManager+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EFFD2E1E6C46A000459A23 /* VPFileManager+Extension.h */; };
+		E8EFFD311E6C46A100459A23 /* VPFileManager+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EFFD2F1E6C46A000459A23 /* VPFileManager+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,18 +55,10 @@
 		E8EFFCB11E67F6D500459A23 /* VPIdentityCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPIdentityCard.m; sourceTree = "<group>"; };
 		E8EFFCB91E67FAC800459A23 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
 		E8EFFCBA1E67FAC800459A23 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
-		E8EFFCBE1E67FDEC00459A23 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
-		E8EFFCBF1E67FDEC00459A23 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
-		E8EFFCC01E67FDEC00459A23 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		E8EFFCC41E67FFDE00459A23 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 		E8EFFCC51E67FFDE00459A23 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		E8EFFCC81E6807C800459A23 /* NSString+URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URL.h"; sourceTree = "<group>"; };
 		E8EFFCC91E6807C800459A23 /* NSString+URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URL.m"; sourceTree = "<group>"; };
-		E8EFFCCD1E68098000459A23 /* SAMKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychain.h; sourceTree = "<group>"; };
-		E8EFFCCE1E68098000459A23 /* SAMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychain.m; sourceTree = "<group>"; };
-		E8EFFCCF1E68098000459A23 /* SAMKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychainQuery.h; sourceTree = "<group>"; };
-		E8EFFCD01E68098000459A23 /* SAMKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychainQuery.m; sourceTree = "<group>"; };
-		E8EFFCD51E68108900459A23 /* SAMKeychain.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SAMKeychain.bundle; sourceTree = "<group>"; };
 		E8EFFCD71E6811ED00459A23 /* NSString+DES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DES.h"; sourceTree = "<group>"; };
 		E8EFFCD81E6811ED00459A23 /* NSString+DES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DES.m"; sourceTree = "<group>"; };
 		E8EFFCE31E681C0200459A23 /* NSString+SHA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SHA1.h"; sourceTree = "<group>"; };
@@ -69,6 +67,20 @@
 		E8EFFCE81E681F5600459A23 /* CryptorToolsRSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CryptorToolsRSA.m; sourceTree = "<group>"; };
 		E8EFFCEB1E68218300459A23 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		E8EFFCEF1E68529000459A23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E8EFFD141E6A96BF00459A23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E8EFFD171E6AD3F500459A23 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		E8EFFD181E6AD3F500459A23 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		E8EFFD191E6AD3F500459A23 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		E8EFFD1B1E6AD3F500459A23 /* SAMKeychain.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SAMKeychain.bundle; sourceTree = "<group>"; };
+		E8EFFD1C1E6AD3F500459A23 /* SAMKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychain.h; sourceTree = "<group>"; };
+		E8EFFD1D1E6AD3F500459A23 /* SAMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychain.m; sourceTree = "<group>"; };
+		E8EFFD1E1E6AD3F500459A23 /* SAMKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychainQuery.h; sourceTree = "<group>"; };
+		E8EFFD1F1E6AD3F500459A23 /* SAMKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychainQuery.m; sourceTree = "<group>"; };
+		E8EFFD281E6C3BE100459A23 /* VPFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPFileManager.h; sourceTree = "<group>"; };
+		E8EFFD291E6C3BE100459A23 /* VPFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPFileManager.m; sourceTree = "<group>"; };
+		E8EFFD2C1E6C3DA700459A23 /* VPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPConstants.h; sourceTree = "<group>"; };
+		E8EFFD2E1E6C46A000459A23 /* VPFileManager+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VPFileManager+Extension.h"; sourceTree = "<group>"; };
+		E8EFFD2F1E6C46A000459A23 /* VPFileManager+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VPFileManager+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8EFFD151E6A96BF00459A23 /* UIKit.framework in Frameworks */,
 				E8EFFCF01E68529000459A23 /* Foundation.framework in Frameworks */,
 				E8EFFCEC1E68218300459A23 /* Security.framework in Frameworks */,
 			);
@@ -109,6 +122,7 @@
 				E8EFFCB41E67F8E700459A23 /* Encrypt */,
 				E8EFFCEE1E6825AB00459A23 /* FileManager */,
 				E8EFFC871E67E12C00459A23 /* Info.plist */,
+				E8EFFD2C1E6C3DA700459A23 /* VPConstants.h */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -146,8 +160,8 @@
 		E8EFFCB41E67F8E700459A23 /* Encrypt */ = {
 			isa = PBXGroup;
 			children = (
-				E8EFFCCC1E68098000459A23 /* SSKeyChain */,
-				E8EFFCBD1E67FDEC00459A23 /* Base64 */,
+				E8EFFD161E6AD3F500459A23 /* Base64 */,
+				E8EFFD1A1E6AD3F500459A23 /* SSKeyChain */,
 				E8EFFCB91E67FAC800459A23 /* NSData+AES.h */,
 				E8EFFCBA1E67FAC800459A23 /* NSData+AES.m */,
 				E8EFFCC41E67FFDE00459A23 /* NSString+MD5.h */,
@@ -164,31 +178,10 @@
 			name = Encrypt;
 			sourceTree = "<group>";
 		};
-		E8EFFCBD1E67FDEC00459A23 /* Base64 */ = {
-			isa = PBXGroup;
-			children = (
-				E8EFFCBE1E67FDEC00459A23 /* GTMBase64.h */,
-				E8EFFCBF1E67FDEC00459A23 /* GTMBase64.m */,
-				E8EFFCC01E67FDEC00459A23 /* GTMDefines.h */,
-			);
-			path = Base64;
-			sourceTree = "<group>";
-		};
-		E8EFFCCC1E68098000459A23 /* SSKeyChain */ = {
-			isa = PBXGroup;
-			children = (
-				E8EFFCD51E68108900459A23 /* SAMKeychain.bundle */,
-				E8EFFCCD1E68098000459A23 /* SAMKeychain.h */,
-				E8EFFCCE1E68098000459A23 /* SAMKeychain.m */,
-				E8EFFCCF1E68098000459A23 /* SAMKeychainQuery.h */,
-				E8EFFCD01E68098000459A23 /* SAMKeychainQuery.m */,
-			);
-			path = SSKeyChain;
-			sourceTree = "<group>";
-		};
 		E8EFFCED1E68219700459A23 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E8EFFD141E6A96BF00459A23 /* UIKit.framework */,
 				E8EFFCEF1E68529000459A23 /* Foundation.framework */,
 				E8EFFCEB1E68218300459A23 /* Security.framework */,
 			);
@@ -198,8 +191,34 @@
 		E8EFFCEE1E6825AB00459A23 /* FileManager */ = {
 			isa = PBXGroup;
 			children = (
+				E8EFFD281E6C3BE100459A23 /* VPFileManager.h */,
+				E8EFFD291E6C3BE100459A23 /* VPFileManager.m */,
+				E8EFFD2E1E6C46A000459A23 /* VPFileManager+Extension.h */,
+				E8EFFD2F1E6C46A000459A23 /* VPFileManager+Extension.m */,
 			);
 			name = FileManager;
+			sourceTree = "<group>";
+		};
+		E8EFFD161E6AD3F500459A23 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				E8EFFD171E6AD3F500459A23 /* GTMBase64.h */,
+				E8EFFD181E6AD3F500459A23 /* GTMBase64.m */,
+				E8EFFD191E6AD3F500459A23 /* GTMDefines.h */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		E8EFFD1A1E6AD3F500459A23 /* SSKeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				E8EFFD1B1E6AD3F500459A23 /* SAMKeychain.bundle */,
+				E8EFFD1C1E6AD3F500459A23 /* SAMKeychain.h */,
+				E8EFFD1D1E6AD3F500459A23 /* SAMKeychain.m */,
+				E8EFFD1E1E6AD3F500459A23 /* SAMKeychainQuery.h */,
+				E8EFFD1F1E6AD3F500459A23 /* SAMKeychainQuery.m */,
+			);
+			path = SSKeyChain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,18 +228,21 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8EFFD2A1E6C3BE200459A23 /* VPFileManager.h in Headers */,
+				E8EFFD221E6AD3F500459A23 /* GTMDefines.h in Headers */,
 				E8EFFC861E67E12C00459A23 /* Utility.h in Headers */,
 				E8EFFC921E67E5FC00459A23 /* ValidateImpl.h in Headers */,
+				E8EFFD201E6AD3F500459A23 /* GTMBase64.h in Headers */,
+				E8EFFD241E6AD3F500459A23 /* SAMKeychain.h in Headers */,
+				E8EFFD261E6AD3F500459A23 /* SAMKeychainQuery.h in Headers */,
 				E8EFFCCA1E6807C800459A23 /* NSString+URL.h in Headers */,
+				E8EFFD301E6C46A000459A23 /* VPFileManager+Extension.h in Headers */,
 				E8EFFCC61E67FFDE00459A23 /* NSString+MD5.h in Headers */,
-				E8EFFCC11E67FDEC00459A23 /* GTMBase64.h in Headers */,
 				E8EFFCBB1E67FAC800459A23 /* NSData+AES.h in Headers */,
+				E8EFFD2D1E6C3DA700459A23 /* VPConstants.h in Headers */,
 				E8EFFCE51E681C0200459A23 /* NSString+SHA1.h in Headers */,
 				E8EFFCD91E6811ED00459A23 /* NSString+DES.h in Headers */,
-				E8EFFCC31E67FDEC00459A23 /* GTMDefines.h in Headers */,
 				E8EFFCE91E681F5600459A23 /* CryptorToolsRSA.h in Headers */,
-				E8EFFCD31E68098000459A23 /* SAMKeychainQuery.h in Headers */,
-				E8EFFCD11E68098000459A23 /* SAMKeychain.h in Headers */,
 				E8EFFCB21E67F6D500459A23 /* VPIdentityCard.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8EFFCD61E68108900459A23 /* SAMKeychain.bundle in Resources */,
+				E8EFFD231E6AD3F500459A23 /* SAMKeychain.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,17 +315,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8EFFCD41E68098000459A23 /* SAMKeychainQuery.m in Sources */,
 				E8EFFCEA1E681F5600459A23 /* CryptorToolsRSA.m in Sources */,
+				E8EFFD311E6C46A100459A23 /* VPFileManager+Extension.m in Sources */,
+				E8EFFD271E6AD3F500459A23 /* SAMKeychainQuery.m in Sources */,
 				E8EFFC931E67E5FC00459A23 /* ValidateImpl.m in Sources */,
 				E8EFFCE61E681C0200459A23 /* NSString+SHA1.m in Sources */,
 				E8EFFCDA1E6811ED00459A23 /* NSString+DES.m in Sources */,
 				E8EFFCCB1E6807C800459A23 /* NSString+URL.m in Sources */,
 				E8EFFCB31E67F6D500459A23 /* VPIdentityCard.m in Sources */,
 				E8EFFCC71E67FFDE00459A23 /* NSString+MD5.m in Sources */,
+				E8EFFD251E6AD3F500459A23 /* SAMKeychain.m in Sources */,
+				E8EFFD211E6AD3F500459A23 /* GTMBase64.m in Sources */,
 				E8EFFCBC1E67FAC800459A23 /* NSData+AES.m in Sources */,
-				E8EFFCD21E68098000459A23 /* SAMKeychain.m in Sources */,
-				E8EFFCC21E67FDEC00459A23 /* GTMBase64.m in Sources */,
+				E8EFFD2B1E6C3BE200459A23 /* VPFileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +377,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -395,6 +420,7 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -403,6 +429,7 @@
 		E8EFFC8B1E67E12C00459A23 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -413,12 +440,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = peng.Utility;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
 			};
 			name = Debug;
 		};
 		E8EFFC8C1E67E12C00459A23 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -429,6 +458,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = peng.Utility;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
 			};
 			name = Release;
 		};

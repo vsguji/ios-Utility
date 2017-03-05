@@ -6,7 +6,6 @@
 //  Copyright © 2017年 lipeng. All rights reserved.
 //
 #import <Foundation/Foundation.h>
-#import <CommonCrypto/CommonCryptor.h>
 
 @interface NSString(DES)
 
