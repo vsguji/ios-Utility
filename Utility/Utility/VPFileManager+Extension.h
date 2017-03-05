@@ -32,3 +32,4 @@
 - (NSString *) dirHome;
 
 @end
+    
