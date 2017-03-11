@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E83A067F1E73C7D8008CE62D /* NSArray+CSV.h in Headers */ = {isa = PBXBuildFile; fileRef = E83A067D1E73C7D8008CE62D /* NSArray+CSV.h */; };
+		E83A06801E73C7D8008CE62D /* NSArray+CSV.m in Sources */ = {isa = PBXBuildFile; fileRef = E83A067E1E73C7D8008CE62D /* NSArray+CSV.m */; };
+		E83A06831E73C893008CE62D /* CSVParser.h in Headers */ = {isa = PBXBuildFile; fileRef = E83A06811E73C893008CE62D /* CSVParser.h */; };
+		E83A06841E73C893008CE62D /* CSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E83A06821E73C893008CE62D /* CSVParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E83A06871E73CB0A008CE62D /* NSArray+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = E83A06851E73CB0A008CE62D /* NSArray+JSON.h */; };
+		E83A06881E73CB0A008CE62D /* NSArray+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = E83A06861E73CB0A008CE62D /* NSArray+JSON.m */; };
+		E83A068B1E73CB64008CE62D /* NSDictionary+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = E83A06891E73CB64008CE62D /* NSDictionary+JSON.h */; };
+		E83A068C1E73CB64008CE62D /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = E83A068A1E73CB64008CE62D /* NSDictionary+JSON.m */; };
+		E83A06901E73CBC9008CE62D /* NSString+JSONVALUE.h in Headers */ = {isa = PBXBuildFile; fileRef = E83A068E1E73CBC9008CE62D /* NSString+JSONVALUE.h */; };
+		E83A06911E73CBC9008CE62D /* NSString+JSONVALUE.m in Sources */ = {isa = PBXBuildFile; fileRef = E83A068F1E73CBC9008CE62D /* NSString+JSONVALUE.m */; };
 		E8EFFC861E67E12C00459A23 /* Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EFFC851E67E12C00459A23 /* Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8EFFC921E67E5FC00459A23 /* ValidateImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EFFC901E67E5FC00459A23 /* ValidateImpl.h */; };
 		E8EFFC931E67E5FC00459A23 /* ValidateImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EFFC911E67E5FC00459A23 /* ValidateImpl.m */; };
@@ -43,6 +53,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E83A067D1E73C7D8008CE62D /* NSArray+CSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CSV.h"; sourceTree = "<group>"; };
+		E83A067E1E73C7D8008CE62D /* NSArray+CSV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CSV.m"; sourceTree = "<group>"; };
+		E83A06811E73C893008CE62D /* CSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSVParser.h; sourceTree = "<group>"; };
+		E83A06821E73C893008CE62D /* CSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSVParser.m; sourceTree = "<group>"; };
+		E83A06851E73CB0A008CE62D /* NSArray+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSON.h"; sourceTree = "<group>"; };
+		E83A06861E73CB0A008CE62D /* NSArray+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSON.m"; sourceTree = "<group>"; };
+		E83A06891E73CB64008CE62D /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
+		E83A068A1E73CB64008CE62D /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
+		E83A068E1E73CBC9008CE62D /* NSString+JSONVALUE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSONVALUE.h"; sourceTree = "<group>"; };
+		E83A068F1E73CBC9008CE62D /* NSString+JSONVALUE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSONVALUE.m"; sourceTree = "<group>"; };
 		E8EFFC821E67E12C00459A23 /* Utility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EFFC851E67E12C00459A23 /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		E8EFFC871E67E12C00459A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,6 +117,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E83A06621E73C609008CE62D /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				E83A06891E73CB64008CE62D /* NSDictionary+JSON.h */,
+				E83A068A1E73CB64008CE62D /* NSDictionary+JSON.m */,
+			);
+			path = Dictionary;
+			sourceTree = "<group>";
+		};
+		E83A06631E73C60F008CE62D /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				E83A06811E73C893008CE62D /* CSVParser.h */,
+				E83A06821E73C893008CE62D /* CSVParser.m */,
+				E83A067D1E73C7D8008CE62D /* NSArray+CSV.h */,
+				E83A067E1E73C7D8008CE62D /* NSArray+CSV.m */,
+				E83A06851E73CB0A008CE62D /* NSArray+JSON.h */,
+				E83A06861E73CB0A008CE62D /* NSArray+JSON.m */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		E83A068D1E73CBB7008CE62D /* String */ = {
+			isa = PBXGroup;
+			children = (
+				E83A068E1E73CBC9008CE62D /* NSString+JSONVALUE.h */,
+				E83A068F1E73CBC9008CE62D /* NSString+JSONVALUE.m */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
 		E8EFFC781E67E12C00459A23 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +168,9 @@
 		E8EFFC841E67E12C00459A23 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				E83A068D1E73CBB7008CE62D /* String */,
+				E83A06631E73C60F008CE62D /* Array */,
+				E83A06621E73C609008CE62D /* Dictionary */,
 				E8EFFC851E67E12C00459A23 /* Utility.h */,
 				E8EFFC8D1E67E1AC00459A23 /* Valid */,
 				E8EFFCB41E67F8E700459A23 /* Encrypt */,
@@ -229,10 +283,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8EFFD2A1E6C3BE200459A23 /* VPFileManager.h in Headers */,
+				E83A068B1E73CB64008CE62D /* NSDictionary+JSON.h in Headers */,
 				E8EFFD221E6AD3F500459A23 /* GTMDefines.h in Headers */,
 				E8EFFC861E67E12C00459A23 /* Utility.h in Headers */,
+				E83A067F1E73C7D8008CE62D /* NSArray+CSV.h in Headers */,
 				E8EFFC921E67E5FC00459A23 /* ValidateImpl.h in Headers */,
 				E8EFFD201E6AD3F500459A23 /* GTMBase64.h in Headers */,
+				E83A06871E73CB0A008CE62D /* NSArray+JSON.h in Headers */,
 				E8EFFD241E6AD3F500459A23 /* SAMKeychain.h in Headers */,
 				E8EFFD261E6AD3F500459A23 /* SAMKeychainQuery.h in Headers */,
 				E8EFFCCA1E6807C800459A23 /* NSString+URL.h in Headers */,
@@ -243,6 +300,8 @@
 				E8EFFCE51E681C0200459A23 /* NSString+SHA1.h in Headers */,
 				E8EFFCD91E6811ED00459A23 /* NSString+DES.h in Headers */,
 				E8EFFCE91E681F5600459A23 /* CryptorToolsRSA.h in Headers */,
+				E83A06901E73CBC9008CE62D /* NSString+JSONVALUE.h in Headers */,
+				E83A06831E73C893008CE62D /* CSVParser.h in Headers */,
 				E8EFFCB21E67F6D500459A23 /* VPIdentityCard.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,17 +378,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8EFFCEA1E681F5600459A23 /* CryptorToolsRSA.m in Sources */,
+				E83A06911E73CBC9008CE62D /* NSString+JSONVALUE.m in Sources */,
 				E8EFFD311E6C46A100459A23 /* VPFileManager+Extension.m in Sources */,
 				E8EFFD271E6AD3F500459A23 /* SAMKeychainQuery.m in Sources */,
 				E8EFFC931E67E5FC00459A23 /* ValidateImpl.m in Sources */,
 				E8EFFCE61E681C0200459A23 /* NSString+SHA1.m in Sources */,
 				E8EFFCDA1E6811ED00459A23 /* NSString+DES.m in Sources */,
 				E8EFFCCB1E6807C800459A23 /* NSString+URL.m in Sources */,
+				E83A06841E73C893008CE62D /* CSVParser.m in Sources */,
+				E83A068C1E73CB64008CE62D /* NSDictionary+JSON.m in Sources */,
 				E8EFFCB31E67F6D500459A23 /* VPIdentityCard.m in Sources */,
 				E8EFFCC71E67FFDE00459A23 /* NSString+MD5.m in Sources */,
+				E83A06801E73C7D8008CE62D /* NSArray+CSV.m in Sources */,
 				E8EFFD251E6AD3F500459A23 /* SAMKeychain.m in Sources */,
 				E8EFFD211E6AD3F500459A23 /* GTMBase64.m in Sources */,
 				E8EFFCBC1E67FAC800459A23 /* NSData+AES.m in Sources */,
+				E83A06881E73CB0A008CE62D /* NSArray+JSON.m in Sources */,
 				E8EFFD2B1E6C3BE200459A23 /* VPFileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
