@@ -17,6 +17,8 @@
 		E83A068C1E73CB64008CE62D /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = E83A068A1E73CB64008CE62D /* NSDictionary+JSON.m */; };
 		E83A06901E73CBC9008CE62D /* NSString+JSONVALUE.h in Headers */ = {isa = PBXBuildFile; fileRef = E83A068E1E73CBC9008CE62D /* NSString+JSONVALUE.h */; };
 		E83A06911E73CBC9008CE62D /* NSString+JSONVALUE.m in Sources */ = {isa = PBXBuildFile; fileRef = E83A068F1E73CBC9008CE62D /* NSString+JSONVALUE.m */; };
+		E83A06961E73D0FC008CE62D /* NotificatonCenterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E83A06941E73D0FC008CE62D /* NotificatonCenterManager.h */; };
+		E83A06971E73D0FC008CE62D /* NotificatonCenterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E83A06951E73D0FC008CE62D /* NotificatonCenterManager.m */; };
 		E8EFFC861E67E12C00459A23 /* Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EFFC851E67E12C00459A23 /* Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8EFFC921E67E5FC00459A23 /* ValidateImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EFFC901E67E5FC00459A23 /* ValidateImpl.h */; };
 		E8EFFC931E67E5FC00459A23 /* ValidateImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EFFC911E67E5FC00459A23 /* ValidateImpl.m */; };
@@ -63,6 +65,8 @@
 		E83A068A1E73CB64008CE62D /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
 		E83A068E1E73CBC9008CE62D /* NSString+JSONVALUE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSONVALUE.h"; sourceTree = "<group>"; };
 		E83A068F1E73CBC9008CE62D /* NSString+JSONVALUE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSONVALUE.m"; sourceTree = "<group>"; };
+		E83A06941E73D0FC008CE62D /* NotificatonCenterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificatonCenterManager.h; sourceTree = "<group>"; };
+		E83A06951E73D0FC008CE62D /* NotificatonCenterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificatonCenterManager.m; sourceTree = "<group>"; };
 		E8EFFC821E67E12C00459A23 /* Utility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EFFC851E67E12C00459A23 /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		E8EFFC871E67E12C00459A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -148,6 +152,22 @@
 			path = String;
 			sourceTree = "<group>";
 		};
+		E83A06921E73CF62008CE62D /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		E83A06931E73CF6A008CE62D /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				E83A06941E73D0FC008CE62D /* NotificatonCenterManager.h */,
+				E83A06951E73D0FC008CE62D /* NotificatonCenterManager.m */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
 		E8EFFC781E67E12C00459A23 = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +188,8 @@
 		E8EFFC841E67E12C00459A23 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				E83A06931E73CF6A008CE62D /* Notification */,
+				E83A06921E73CF62008CE62D /* CoreData */,
 				E83A068D1E73CBB7008CE62D /* String */,
 				E83A06631E73C60F008CE62D /* Array */,
 				E83A06621E73C609008CE62D /* Dictionary */,
@@ -290,6 +312,7 @@
 				E8EFFC921E67E5FC00459A23 /* ValidateImpl.h in Headers */,
 				E8EFFD201E6AD3F500459A23 /* GTMBase64.h in Headers */,
 				E83A06871E73CB0A008CE62D /* NSArray+JSON.h in Headers */,
+				E83A06961E73D0FC008CE62D /* NotificatonCenterManager.h in Headers */,
 				E8EFFD241E6AD3F500459A23 /* SAMKeychain.h in Headers */,
 				E8EFFD261E6AD3F500459A23 /* SAMKeychainQuery.h in Headers */,
 				E8EFFCCA1E6807C800459A23 /* NSString+URL.h in Headers */,
@@ -394,6 +417,7 @@
 				E8EFFD211E6AD3F500459A23 /* GTMBase64.m in Sources */,
 				E8EFFCBC1E67FAC800459A23 /* NSData+AES.m in Sources */,
 				E83A06881E73CB0A008CE62D /* NSArray+JSON.m in Sources */,
+				E83A06971E73D0FC008CE62D /* NotificatonCenterManager.m in Sources */,
 				E8EFFD2B1E6C3BE200459A23 /* VPFileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
