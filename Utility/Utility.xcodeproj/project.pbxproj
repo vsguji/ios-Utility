@@ -274,6 +274,9 @@
 		E8EFFC791E67E12C00459A23 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = lipeng;
 				TargetAttributes = {
